@@ -7,7 +7,7 @@ licenses:
 languages:
   - JSON-LD
   - SPARQL
-  - TURTLE
+  - Turtle
 categories:
   - LSP
 
