@@ -1,5 +1,8 @@
 ---
 name: jsonld-lsp
+deprecation:
+  message: jsonld-lsp is deprecated. Use swls, its successor.
+  since: 1.0.5
 description: JSON-LD Language Server.
 homepage: https://ajuvercr.github.io/jsonld-lsp/
 licenses:
