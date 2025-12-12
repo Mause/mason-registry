@@ -8,7 +8,7 @@ init_options:
   sparql: false # disable sparql support by default
   # turtle: false
   # jsonld: false
-licences:
+languages:
   - JSON-LD
   - SPARQL
   - TURTLE
