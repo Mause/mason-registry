@@ -1,0 +1,29 @@
+---
+name: swls
+description: Semantic Web Language Server.
+homepage: https://semanticweblanguageserver.github.io/swls
+licenses:
+  - MIT
+init_options:
+  sparql: false # disable sparql support by default
+  # turtle: false
+  # jsonld: false
+licences:
+  - JSON-LD
+  - SPARQL
+  - TURTLE
+categories:
+  - LSP
+
+source:
+  id: pkg:github/semanticweblanguageserver/swls@v0.5.0
+  asset:
+    - target: [darwin_arm64, darwin_x64]
+      file: swls-macos-x86_64
+    - target: linux_x64_gnu
+      file: swls-linux-x86_64
+    - target: win_x64
+      file: swls-windows-x86_64.exe
+
+bin:
+  swls: "{{source.asset.file}}"
