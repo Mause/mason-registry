@@ -4,11 +4,11 @@ description: Semantic Web Language Server.
 homepage: https://semanticweblanguageserver.github.io/swls
 licenses:
   - MIT
-opts:
- init_options:
-  sparql: false # disable sparql support by default
-  # turtle: false
-  # jsonld: false
+opt:
+  init_options:
+    sparql: false # disable sparql support by default
+    # turtle: false
+    # jsonld: false
 languages:
   - JSON-LD
   - SPARQL
