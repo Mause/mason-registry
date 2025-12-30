@@ -9,14 +9,7 @@ categories:
   - LSP
 
 source:
-  id: pkg:codeberg/p2502/lspmux@v0.3.0
-  asset:
-    - target: [darwin_arm64, darwin_x64]
-      file: lspmux-macos-x86_64
-    - target: linux_x64_gnu
-      file: lspmux-linux-x86_64
-    - target: win_x64
-      file: lspmux-windows-x86_64.exe
+  id: pkg:cargo/lspmux@0.3.0
 
 bin:
   lspmux: "{{source.asset.file}}"
