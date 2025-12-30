@@ -4,6 +4,7 @@ description: share one language server instance between multiple LSP clients to 
 homepage: https://codeberg.org/p2502/lspmux
 licenses:
   - EUPL-1.2
+languages: []
 categories:
   - LSP
 
