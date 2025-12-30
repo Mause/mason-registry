@@ -1,0 +1,15 @@
+---
+name: lspmux
+description: share one language server instance between multiple LSP clients to save resources
+homepage: https://codeberg.org/p2502/lspmux
+licenses:
+  - EUPL-1.2
+languages: []
+categories:
+  - LSP
+
+source:
+  id: pkg:cargo/lspmux@0.3.0
+
+bin:
+  lspmux: "cargo:lspmux"
